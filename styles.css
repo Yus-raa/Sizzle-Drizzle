@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*The box-sizing property allows us to include the padding and border in an element's total width and height.*/
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/* -------------------- INDEX'S STYLES START -------------------- */
+/* NAV STYLES STARTS HERE */
+.logostyle{
+    font-size: 19px;
+    border: 1.5px solid #ff9922;
+    padding: 3px 3px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: white;
+    background-color: #ff9922;
+}
+.navbar-brand{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.nav-link{
+    font-weight: 600;
+}
+/* NAV STYLES ENDS HERE */
+
+/* INTRO STYLES STARTS HERE */
+#intro{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+#brand{
+    font-size: 12vw;
+    text-transform: uppercase;
+}
+#burger-front{
+position: absolute;
+    z-index: 1;
+}
+.img-fluid{
+    width: 40%;
+}
+/* INTRO STYLES ENDS HERE */
+
+/* CATEGORIES STYLES STARTS HERE */
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 18%;
+    background-color: black;
+    color:#ff9922;
+}
+.bite{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vw;
+    margin: 0;
+}
+
+.cat-items{
+    padding: 1.5vw 0;
+    background-color: black;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+}
+.card-title{
+    color:#ff9922;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.card-text{
+    line-height: 15px;
+    color: gainsboro;
+    font-size: 13px;
+}
+.order{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: #ff9922;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.order p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    line-height: 20px;
+}
+.order span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3vw;
+}
+/* CATEGORIES STYLES ENDS HERE */
+
+/* FOOTER STYLES START HERE */
+.contain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #ff9922;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+.footer{
+    background-color: black;
+    height: 80%;
+    width: 85%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.logo h4{
+    font-size: 23px;
+    color: #ff9922;
+}
+.memo{
+    font-size: 16px;
+    color: gainsboro;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1px 7%;
+}
+footer{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+/* FOOTER STYLES ENDS HERE */
+/* -------------------- INDEX'S STYLES END -------------------- */
+
+
+
+/* -------------------- MENU'S STYLES START -------------------- */
+.pg-start{
+    height: 25%;
+    background-color: black;
+    color: #ff9922;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.pg-start h6{
+    font-size: 4vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pg-start p{
+    color: gainsboro;
+}
+.menu-title{
+    background-color: black;
+    height: 15%;
+    color: #ff9922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+}
+#menu-logo{
+    font-size: 35px;
+    padding: 4px 5px;
+}
+.menu-title h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+.menu-items{
+    background-color: black;
+    padding: 4%;
+}
+.menu-row{
+    margin-bottom: 3%;
+}
+.menu-col{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    padding: 0%;
+}
+.card-body{
+    background-color: black;
+}
+/* -------------------- MENU'S STYLES END -------------------- */
+
+/* -------------------- CONTACT'S STYLES START -------------------- */
+.page-items{
+    background-color: black;
+    padding: 2% 25% 8% 25%;
+    color: gainsboro;
+}
+
+/* -------------------- CONTACT'S STYLES END -------------------- */
+
+
+/* -------------------- ERROR STYLES STARTS -------------------- */
+
+/* -------------------- ERROR STYLES END -------------------- */
+
+/* RESPONSIVE STYLES */
+@media (max-width:850px){
+    /* ----- INDEX ----- */
+    #intro{
+        height: 40%;
+    }
+    .category{
+        height: 14%;
+    }
+
+    .bite{
+        font-size: 4vw;
+    }
+    .order p{
+        font-size: 3vw;
+    }
+    .order span{
+        font-size: 2.5vw;
+    }
+    /* ----- MENU ----- */
+    .pg-start h6{
+        font-size: 5.5vw;
+    }
+}
+
